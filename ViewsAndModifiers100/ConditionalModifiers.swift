@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct ConditionalModifiers: View {
+    @State private var useRedText = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if useRedText {
+            Button("Hello, world!") {
+                useRedText.toggle()
+            }
+            .foregroundColor(useRedText ? .red : .blue)
+        } else {
+            Button("Hello, world!") {
+                useRedText.toggle()
+            }
+            .foregroundColor(.blue)
+        }
     }
 }
 
