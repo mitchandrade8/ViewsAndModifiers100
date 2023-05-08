@@ -11,6 +11,8 @@
 		744EEC4E2A0997F4009BEF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC4D2A0997F4009BEF5F /* ContentView.swift */; };
 		744EEC502A0997F7009BEF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC4F2A0997F7009BEF5F /* Assets.xcassets */; };
 		744EEC532A0997F7009BEF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC522A0997F7009BEF5F /* Preview Assets.xcassets */; };
+		744EEC5A2A099A9D009BEF5F /* ModifierOrderMatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC592A099A9D009BEF5F /* ModifierOrderMatters.swift */; };
+		744EEC5C2A099DAB009BEF5F /* ConditionalModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC5B2A099DAB009BEF5F /* ConditionalModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		744EEC4D2A0997F4009BEF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		744EEC4F2A0997F7009BEF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744EEC522A0997F7009BEF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		744EEC592A099A9D009BEF5F /* ModifierOrderMatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierOrderMatters.swift; sourceTree = "<group>"; };
+		744EEC5B2A099DAB009BEF5F /* ConditionalModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				744EEC4B2A0997F4009BEF5F /* ViewsAndModifiers100App.swift */,
 				744EEC4D2A0997F4009BEF5F /* ContentView.swift */,
+				744EEC592A099A9D009BEF5F /* ModifierOrderMatters.swift */,
+				744EEC5B2A099DAB009BEF5F /* ConditionalModifiers.swift */,
 				744EEC4F2A0997F7009BEF5F /* Assets.xcassets */,
 				744EEC512A0997F7009BEF5F /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				744EEC4E2A0997F4009BEF5F /* ContentView.swift in Sources */,
 				744EEC4C2A0997F4009BEF5F /* ViewsAndModifiers100App.swift in Sources */,
+				744EEC5A2A099A9D009BEF5F /* ModifierOrderMatters.swift in Sources */,
+				744EEC5C2A099DAB009BEF5F /* ConditionalModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
